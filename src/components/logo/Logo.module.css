@@ -1,0 +1,17 @@
+.wrapLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Goldman", sans-serif;
+  font-size: 8px;
+}
+
+.wrapLogo h1{
+  word-spacing: 0.1px;
+}
+
+.logoIcon {
+  width: 20px;
+  height: auto;
+  margin-left: 3px;
+}

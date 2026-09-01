@@ -1,0 +1,7 @@
+.errorMsgContainer {
+  max-width: 350px;
+  color: rgb(140, 40, 40);
+  padding: 2%;
+  font-weight: bold;
+  font-size: 13px;
+}

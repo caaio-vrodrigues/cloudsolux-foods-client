@@ -1,0 +1,17 @@
+.list{
+  list-style: none;
+}
+
+.list li{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.list li span{
+  margin-left: 5px;
+}
+
+.list li svg{
+  width: 20px;
+  height: 20px;
+}
