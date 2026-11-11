@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bgApp);
+}
+
+.wrapper {
+  padding: var(--sideSpace);
+}
+
+.wrapper h1 {
+  font-size: 17px;
+}
+
+.wrapper h2 {
+  font-size: 15px;
+}
+
+.continerExcelButton {
+  margin-inline: auto;
+  margin-top: 15px;
+  max-width: fit-content;
+}
+
+.continerExcelButton button {
+  width: 100%;
+  padding: 5px;
+  margin-top: 8px;
+  background-color: var(--primaryColor);
+  border: none;
+  box-shadow: 1px 1px 0.5px 1.2px rgba(0, 0, 0, 0.481);
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.continerExcelButton button:hover {
+  background-color: var(--secondaryColor);
+}
+
+.downloadIcon{
+  width: 15px;
+  height: auto;
+}
+
+.downloadSpan {
+  margin-left: 3px;
+}
